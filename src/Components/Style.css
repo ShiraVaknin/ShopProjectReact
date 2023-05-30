@@ -1,0 +1,242 @@
+.table{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.impProduct{
+    width:350px;
+    height: 400px;
+}
+
+.home_picture{
+    width: 100%;
+    height: 520px;
+    /* height: 600px; */
+    /* margin-left: 5%; */
+}
+.navBar{
+    color:rgb(238,201,195);
+    font-size: x-large;
+    padding:20px;
+    text-decoration: none;
+}
+
+.nav{
+ background-color: black;
+ /* text-align: center; */
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+.list_logo{
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+}
+.list_logo2{
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+}
+
+.descriptionImg{
+    margin-top: 7%;
+    width:450px;
+    height: 550px;
+    margin-right: 10%;
+}
+
+.custom-btn {
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+    
+  .btn-11 {
+    border: none;
+    background: rgb(238,201,195);
+      background: linear-gradient(0deg,rgba(238,201,195,1)  0%, rgba(228, 186, 179,1) 100%);
+      color: #fff;
+      overflow: hidden;
+  }
+  .btn-11:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  .btn-11:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 3s ease-in-out infinite;
+  }
+  .btn-11:hover{
+    opacity: .7;
+  }
+  .btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+
+  .details{
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+
+  .icon{
+    direction: rtl;
+    margin-left: 35%;
+  }
+
+  .center{
+    /* text-align: center; */
+    margin-left: 70%;
+    width: 100%;
+  }
+
+  .product{
+    margin-left: 5%;
+  }
+
+  .search{
+    border:solid 1px rgb(72, 71, 71);
+  }
+
+  .imgCart{
+     margin-top: 2%;
+  }
+
+  .cart{
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+  }
+
+  .cartProduct{
+    border-right:solid 1px rgb(238,201,195);
+    text-align: center;
+    margin-bottom: 20px
+  }
+
+  .myButton {
+    background-color:#ffffff;
+    border-radius: 10%;
+    border:0.5px solid #292929;
+    display:inline-block;
+    cursor:pointer;
+    color:#eec9c3;
+    font-family:Impact;
+    font-size:22px;
+    font-weight:bold;
+    padding:0px 6px;
+    text-decoration:none;
+  }
+  .myButton:hover {
+    background-color:#030800;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+  /* .myButton {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #f7d5cf 5%, #dfdfdf 100%);
+    background-color:#f7d5cf;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 11px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #dfdfdf 5%, #f7d5cf 100%);
+    background-color:#dfdfdf;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  } */
+
+  .mx-2{
+    padding: 10px;
+  }
+
+  .mx-4{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: larger;
+  }
+
+  .add{
+    color:rgb(238,201,195);
+    margin-right: 10%;
+  }
+
+  .formGroup {
+    margin-bottom: 1.5rem;
+    /* margin-top: 3%; */
+  }
+  
+  .formLabel {
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 10px;
+  }
+  
+  .formControl {
+    border-radius: 0;
+    border:solid 2px black;
+    border-bottom: 1px solid rgb(72, 71, 71);
+    height: 30px;
+    border-radius: 5%;
+    color: rgb(188,136,138)
+  }
+  
+  .formControl:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  
+.addProduct{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.line{
+  height: 680px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+
+
+  
